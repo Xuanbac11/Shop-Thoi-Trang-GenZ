@@ -16,6 +16,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TextView tv = findViewById(R.id.tv);
         tv.setText("Siu nhân gao");
-        tv.setTextColor(Color.GREEN);
+        tv.setTextColor(Color.RED);
     }
 }
