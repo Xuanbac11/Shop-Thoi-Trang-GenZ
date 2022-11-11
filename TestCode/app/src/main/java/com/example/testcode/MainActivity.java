@@ -21,6 +21,5 @@ public class MainActivity extends AppCompatActivity {
         String link="<iframe width=\"380\" height=\"320\" src=\"https://www.youtube.com/embed/xno-D8RCq1w\" title=\"Tik Tok\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>";
         oggy.loadData(link,"text/html", null);
         setContentView(oggy);
-
     }
 }
